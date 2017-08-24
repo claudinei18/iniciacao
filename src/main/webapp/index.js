@@ -23,7 +23,12 @@ angular.module('contagem-regressiva', ['timer'])
             {id: "14", nome: "Prova 3 - Modelagem Zárate", data: new Date( "11/23/2017")},
             {id: "15", nome: "Trabalho Distribuída", data: new Date( "11/29/2017")},
             {id: "16", nome: "Prova 3 - PID", data: new Date( "11/29/2017")},
-            {id: "17", nome: "Prova 2 - Filosofia", data: new Date( "12/05/2017")}
+            {id: "17", nome: "Prova 2 - Filosofia", data: new Date( "12/05/2017")},
+            {id: "18", nome: "Formulário Ponto de Controle preenchido", data: new Date( "08/21/2017")},
+            {id: "18", nome: "Introdução, referencial Teórico e Metodologia.", data: new Date( "09/18/2017")},
+            {id: "19", nome: "Implementação Física Início dos testes.", data: new Date( "09/10/2017")},
+            {id: "20", nome: "Trabalho Final ", data: new Date( "11/27/2017")},
+            {id: "21", nome: "Trabalho Final Impresso", data: new Date( "12/04/2017")},
 
         ]
 
