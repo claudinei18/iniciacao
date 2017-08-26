@@ -62,8 +62,11 @@ angular.module('contagem-regressiva', ['timer'])
             if(todayDay == provaDay &&
                todayMonth == provaMonth &&
                todayYear == provaYear ){
-                return true
-            }else{
+                return "equals"
+            }else if(todayDay > provaDay &&
+                todayMonth >= provaMonth ){
+                return "menor"
+            } else{
                 return false
             }
         }
