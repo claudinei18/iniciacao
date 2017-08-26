@@ -26,7 +26,7 @@ angular.module('contagem-regressiva', ['timer'])
             {id: "17", nome: "Prova 2 - Filosofia", data: new Date( "12/05/2017")},
             {id: "18", nome: "Formulário Ponto de Controle preenchido", data: new Date( "08/21/2017")},
             {id: "18", nome: "Introdução, referencial Teórico e Metodologia.", data: new Date( "09/18/2017")},
-            {id: "19", nome: "Implementação Física Início dos testes.", data: new Date( "10/09/2017")},
+            {id: "19", nome: "Implementação Física Início dos testes.", data: new Date( "09/10/2017")},
             {id: "20", nome: "Trabalho Final ", data: new Date( "11/27/2017")},
             {id: "21", nome: "Trabalho Final Impresso", data: new Date( "12/04/2017")},
 
@@ -47,6 +47,25 @@ angular.module('contagem-regressiva', ['timer'])
         $scope.test = function () {
             console.log("oi")
             return true
+        }
+
+        $scope.dateEquals = function(dateprova){
+            var dateToday = new Date();
+            var todayDay = dateToday.getUTCDate();
+            var todayMonth = dateToday.getUTCMonth() + 1;
+            var todayYear = dateToday.getUTCFullYear();
+
+            var provaDay = dateprova.getUTCDate();
+            var provaMonth = dateprova.getUTCMonth() + 1;
+            var provaYear = dateprova.getUTCFullYear();
+
+            if(todayDay == provaDay &&
+               todayMonth == provaMonth &&
+               todayYear == provaYear ){
+                return true
+            }else{
+                return false
+            }
         }
 
     });
