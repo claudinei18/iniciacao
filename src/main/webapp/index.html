@@ -102,7 +102,7 @@
 </header>
 
 <div class="container">
-    <table class="table">
+    <table class="table table-striped table-bordered">
         <thead>
         <tr>
             <th>Passou</th>
@@ -112,7 +112,7 @@
         </thead>
         <tbody>
         {{provas[0]}}
-        <tr ng-repeat="prova in provas | orderBy: 'data': reverse">
+        <tr ng-repeat="prova in provas | orderBy: 'data': reverse" ng-style="{ 'background-color': (dateEquals(prova.data) ? 'blue': 'black') } ">
             <!--<td ng-show=" checked(prova.id)"> <span class="glyphicon glyphicon-check"> true</span> </td>
             <td ng-show="!checked(prova.id)"> <span class="glyphicon glyphicon-unchecked"> false</span> </td>-->
             <td> {{ $index }} </td>
