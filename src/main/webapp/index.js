@@ -7,7 +7,7 @@ angular.module('contagem-regressiva', ['timer'])
 
         $scope.provas = [
             {id: "0", nome: "Relatório 1 - Filosofia", data: new Date("08/24/2017")},
-            {id: "1", nome: "Apresentação PSE PID", data: new Date( "09/04/2017")},
+            {id: "1", nome: "Apresentação PSE PID", data: new Date( "09/24/2017")},
             {id: "2", nome: "Prova 1 - Distribuída", data: new Date( "09/12/2017")},
             {id: "3", nome: "Prova 1 - PID", data: new Date( "09/13/2017")},
             {id: "4", nome: "Prova 1 - Modelagem Zárate", data: new Date( "09/14/2017")},
@@ -29,6 +29,14 @@ angular.module('contagem-regressiva', ['timer'])
             {id: "19", nome: "Implementação Física Início dos testes.", data: new Date( "09/10/2017")},
             {id: "20", nome: "Trabalho Final ", data: new Date( "11/27/2017")},
             {id: "21", nome: "Trabalho Final Impresso", data: new Date( "12/04/2017")},
+            {id: "22", nome: "Atividade Objetiva 1", data: new Date( "08/28/2017")},
+            {id: "23", nome: "Atividade Objetiva 2", data: new Date( "09/18/2017")},
+            {id: "24", nome: "Atividade Objetiva 3", data: new Date( "10/02/2017")},
+            {id: "25", nome: "Atividade Objetiva 4", data: new Date( "10/23/2017")},
+            {id: "26", nome: "Atividade Objetiva 5", data: new Date( "10/09/2017")},
+            {id: "27", nome: "Atividade Objetiva 6", data: new Date( "11/06/2017")},
+            {id: "28", nome: "Atividade Objetiva 7", data: new Date( "11/13/2017")},
+
 
         ]
 
@@ -59,7 +67,7 @@ angular.module('contagem-regressiva', ['timer'])
             var provaMonth = dateprova.getUTCMonth() + 1;
             var provaYear = dateprova.getUTCFullYear();
 
-            if(todayDay == provaDay &&
+            if(todayDay >= provaDay - 2 && todayDay <= provaDay &&
                todayMonth == provaMonth &&
                todayYear == provaYear ){
                 return "equals"
