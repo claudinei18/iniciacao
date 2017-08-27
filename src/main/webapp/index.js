@@ -36,6 +36,7 @@ angular.module('contagem-regressiva', ['timer'])
             {id: "26", nome: "Atividade Objetiva 5", data: new Date( "10/09/2017")},
             {id: "27", nome: "Atividade Objetiva 6", data: new Date( "11/06/2017")},
             {id: "28", nome: "Atividade Objetiva 7", data: new Date( "11/13/2017")},
+            {id: "28", nome: "APRESENTAR TCC :'(", data: new Date( "12/06/2017")}
 
 
         ]

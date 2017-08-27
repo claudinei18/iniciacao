@@ -111,7 +111,6 @@
         </tr>
         </thead>
         <tbody>
-        {{provas[0]}}
         <tr ng-repeat="prova in provas | orderBy: 'data': reverse" ng-style="{ 'background-color': (dateEquals(prova.data) ==  'equals' ? '#ef6969': (dateEquals(prova.data) =='menor' ) ? '#6ff79e' : '') } ">
             <td ng-show="dateEquals(prova.data) ==  'menor'"> <span class="glyphicon glyphicon-check"></span> </td>
             <td ng-show="dateEquals(prova.data) !=  'menor'"> <span class="glyphicon glyphicon-unchecked"></span> </td>
