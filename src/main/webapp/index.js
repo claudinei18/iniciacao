@@ -53,11 +53,6 @@ angular.module('contagem-regressiva', ['timer'])
             return false;
         }
 
-        $scope.test = function () {
-            console.log("oi")
-            return true
-        }
-
         $scope.dateEquals = function(dateprova){
             var dateToday = new Date();
             var todayDay = dateToday.getUTCDate();
