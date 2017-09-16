@@ -8,7 +8,7 @@ angular.module('contagem-regressiva', ['timer'])
         $scope.provas = [
             {id: "0", nome: "Relatório 1 - Filosofia", data: new Date("08/24/2017")},
             {id: "1", nome: "Apresentação PSE PID", data: new Date( "09/04/2017")},
-            {id: "2", nome: "Prova 1 - Distribuída", data: new Date( "09/12/2017")},
+            {id: "2", nome: "Prova 1 - Distribuída", data: new Date( "09/20/2017")},
             {id: "3", nome: "Prova 1 - PID", data: new Date( "09/13/2017")},
             {id: "4", nome: "Prova 1 - Modelagem Zárate", data: new Date( "09/28/2017")},
             {id: "5", nome: "Prova 1 - Filosofia", data: new Date( "09/28/2017")},
