@@ -10,7 +10,7 @@ angular.module('contagem-regressiva', ['timer'])
             {id: "1", nome: "Apresentação PSE PID", data: new Date( "09/04/2017")},
             {id: "2", nome: "Prova 1 - Distribuída", data: new Date( "09/12/2017")},
             {id: "3", nome: "Prova 1 - PID", data: new Date( "09/13/2017")},
-            {id: "4", nome: "Prova 1 - Modelagem Zárate", data: new Date( "09/14/2017")},
+            {id: "4", nome: "Prova 1 - Modelagem Zárate", data: new Date( "09/28/2017")},
             {id: "5", nome: "Prova 1 - Filosofia", data: new Date( "09/28/2017")},
             {id: "6", nome: "Proposta PSE PID", data: new Date( "10/04/2017")},
             {id: "7", nome: "Prova 2 - Distribuída", data: new Date( "10/11/2017")},
